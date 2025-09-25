@@ -1,0 +1,17 @@
+app
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+*.DS_Store
+
+.vscode/
+.idea/
+
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
