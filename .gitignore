@@ -1,17 +1,26 @@
-app
+# === Artefakty testów ===
+test_book
+test_lib
+*.profraw
+*.profdata
+
+# === Pokrycie kodu (coverage) ===
+coverage/
+coverage_html/
+coverage.info
+
+# === Pliki obiektowe ===
 *.o
-*.obj
-*.exe
+
+# === Build artefakty ===
+app
 *.out
-*.log
+*.exe
 
-*.DS_Store
-
+# === IDE / edytory ===
 .vscode/
 .idea/
+.DS_Store
 
-build/
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
+# Debug symbols
+*.dSYM/
